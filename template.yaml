@@ -1,0 +1,9 @@
+name: base-terraform-aws-sample-template
+description: Template Terraform AWS
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
